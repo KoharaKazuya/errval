@@ -43,6 +43,8 @@ func do2() {
 }
 ```
 
+For more functionality, you can see [errbase](https://github.com/KoharaKazuya/errbase).
+
 ## Motivation
 
 We often use *sentinel errors* to represent our errors. To make these error values has functionality of identification, wrapping and stack trace, we need to implement custom error type.
